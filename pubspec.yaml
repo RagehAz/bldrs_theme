@@ -1,0 +1,66 @@
+name: bldrs_theme
+description: icons, colors, fonts, and other theme elements for bldrs
+version: 0.0.1
+homepage: https://github.com/Bldrs-net/bldrs_theme.git
+
+environment:
+  sdk: ">=2.10.5 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/aw/aw_bldrs_app_icon.png"
+  adaptive_icon_background: "assets/aw/aw_bldrs_app_icon.png"
+  adaptive_icon_foreground: "assets/aw/aw_bldrs_app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/aw/
+    - assets/icons/
+    - assets/icons/keywords/
+    - assets/icons/specs/
+    - assets/icons/flags/
+    - assets/languages/
+    - assets/planet/
+    - assets/sounds/
+
+  fonts:
+    - family: BldrsHeadlineFont
+      fonts:
+        - asset: assets/fonts/bldrs_font_bold.ttf
+
+    - family: BldrsBodyFont
+      fonts:
+        - asset: assets/fonts/bldrs_font_regular.ttf
+
+    - family: EnglishHeadline
+      fonts:
+        - asset: assets/fonts/arabic/BldrsFont.ttf
+
+    - family: EnglishBody
+      fonts:
+        - asset: assets/fonts/english/Roboto_Thin.ttf
+        - asset: assets/fonts/english/Roboto_ThinItalic.ttf
+
+    - family: ArabicHeadline
+      fonts:
+        - asset: assets/fonts/arabic/BldrsFont.ttf
+
+    - family: ArabicBody
+      fonts:
+        - asset: assets/fonts/arabic/Tajawal_Light.ttf
+        - asset: assets/fonts/arabic/Tajawal_Regular.ttf
+        - asset: assets/fonts/arabic/BldrsFont.ttf
