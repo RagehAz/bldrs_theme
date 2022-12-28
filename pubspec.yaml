@@ -1,7 +1,7 @@
 name: bldrs_theme
 description: icons, colors, fonts, and other theme elements for bldrs
 version: 0.0.1
-homepage: https://github.com/Bldrs-net/bldrs_theme.git
+homepage: https://github.com/RagehAz/bldrs_theme.git
 
 environment:
   sdk: ">=2.10.5 <3.0.0"
