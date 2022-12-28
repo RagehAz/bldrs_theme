@@ -20,47 +20,47 @@ flutter_icons:
   android: "launcher_icon"
   ios: true
   remove_alpha_ios: true
-  image_path: "assets/aw/aw_bldrs_app_icon.png"
-  adaptive_icon_background: "assets/aw/aw_bldrs_app_icon.png"
-  adaptive_icon_foreground: "assets/aw/aw_bldrs_app_icon.png"
+  image_path: "lib/assets/aw/aw_bldrs_app_icon.png"
+  adaptive_icon_background: "lib/assets/aw/aw_bldrs_app_icon.png"
+  adaptive_icon_foreground: "lib/assets/aw/aw_bldrs_app_icon.png"
 
 flutter:
   uses-material-design: true
   assets:
-    - assets/
-    - assets/aw/
-    - assets/icons/
-    - assets/icons/keywords/
-    - assets/icons/specs/
-    - assets/icons/flags/
-    - assets/languages/
-    - assets/planet/
-    - assets/sounds/
+    - lib/assets/
+    - lib/assets/aw/
+    - lib/assets/icons/
+    - lib/assets/icons/keywords/
+    - lib/assets/icons/specs/
+    - lib/assets/icons/flags/
+    - lib/assets/languages/
+    - lib/assets/planet/
+    - lib/assets/sounds/
 
   fonts:
     - family: BldrsHeadlineFont
       fonts:
-        - asset: assets/fonts/bldrs_font_bold.ttf
+        - asset: lib/assets/fonts/bldrs_font_bold.ttf
 
     - family: BldrsBodyFont
       fonts:
-        - asset: assets/fonts/bldrs_font_regular.ttf
+        - asset: lib/assets/fonts/bldrs_font_regular.ttf
 
     - family: EnglishHeadline
       fonts:
-        - asset: assets/fonts/arabic/BldrsFont.ttf
+        - asset: lib/assets/fonts/arabic/BldrsFont.ttf
 
     - family: EnglishBody
       fonts:
-        - asset: assets/fonts/english/Roboto_Thin.ttf
-        - asset: assets/fonts/english/Roboto_ThinItalic.ttf
+        - asset: lib/assets/fonts/english/Roboto_Thin.ttf
+        - asset: lib/assets/fonts/english/Roboto_ThinItalic.ttf
 
     - family: ArabicHeadline
       fonts:
-        - asset: assets/fonts/arabic/BldrsFont.ttf
+        - asset: lib/assets/fonts/arabic/BldrsFont.ttf
 
     - family: ArabicBody
       fonts:
-        - asset: assets/fonts/arabic/Tajawal_Light.ttf
-        - asset: assets/fonts/arabic/Tajawal_Regular.ttf
-        - asset: assets/fonts/arabic/BldrsFont.ttf
+        - asset: lib/assets/fonts/arabic/Tajawal_Light.ttf
+        - asset: lib/assets/fonts/arabic/Tajawal_Regular.ttf
+        - asset: lib/assets/fonts/arabic/BldrsFont.ttf
