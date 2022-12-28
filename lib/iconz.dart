@@ -6,7 +6,7 @@ class Iconz {
 
   // --------------------
   static const String _iconsPath = 'lib/assets/icons';
-  static const String _artworkPath = 'lib/assets/assets/aw';
+  static const String _artworkPath = 'lib/assets/aw';
   // --------------------
   /// artworks
   static const String bldrsNameEn = '$_artworkPath/aw_bldrs_name_en.svg' ;
