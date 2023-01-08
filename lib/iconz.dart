@@ -6,6 +6,9 @@ class Iconz {
   const Iconz();
 
   // -----------------------------------------------------------------------------
+  /// to be used in package parameter in Image.asset()
+  static const String bldrsTheme = 'bldrs_theme';
+  // -----------------------------------------------------------------------------
 
   /// CLONING
 
