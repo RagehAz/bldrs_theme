@@ -18,7 +18,7 @@ class Iconz {
     final String _path = 'packages/bldrs_theme/$bldrsThemeAsset';
 
     if (bldrsThemeAsset != null) {
-      return rootBundle.load(_path).then((_) {
+      await rootBundle.load(_path).then((_) {
         _exists = true;
       }).catchError((error) {
         _exists = false;
