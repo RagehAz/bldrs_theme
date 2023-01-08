@@ -15,7 +15,7 @@ class Iconz {
   static Future<bool> checkAssetExists(String bldrsThemeAsset) async {
     bool _exists = false;
 
-    final String _path = 'packages/bldrs_theme/$bldrsThemeAsset';
+    final String _path = bldrsThemeAsset;
 
     if (bldrsThemeAsset != null) {
       await rootBundle.load(_path).then((_) {
