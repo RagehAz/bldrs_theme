@@ -11,3 +11,4 @@ part 'classes/fonts.dart';
 part 'classes/iconz.dart';
 part 'classes/langs.dart';
 part 'classes/sounds.dart';
+part 'classes/ratioz.dart';
