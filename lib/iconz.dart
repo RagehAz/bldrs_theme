@@ -1,10 +1,33 @@
+part of bldrs_theme;
 
 class Iconz {
   // -----------------------------------------------------------------------------
 
   const Iconz();
 
+  // -----------------------------------------------------------------------------
+
+  /// CLONING
+
   // --------------------
+  /// TESTED : WORKS PERFECT
+  /// This method should check if bldrs_theme asset exists or not
+  static Future<bool> checkAssetExists(String bldrsThemeAsset) async {
+    bool _exists = false;
+
+    final String _path = 'packages/bldrs_theme/$bldrsThemeAsset';
+
+    if (bldrsThemeAsset != null) {
+      return rootBundle.load(_path).then((_) {
+        _exists = true;
+      }).catchError((error) {
+        _exists = false;
+      });
+    }
+
+    return _exists;
+  }
+  // -----------------------------------------------------------------------------
   static const String _iconsPath = 'lib/assets/icons';
   static const String _artworkPath = 'lib/assets/aw';
   // --------------------

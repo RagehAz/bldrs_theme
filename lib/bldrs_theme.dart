@@ -1,4 +1,6 @@
 library bldrs_theme;
 
-export './colorz.dart';
-export './iconz.dart';
+import 'package:flutter/services.dart';
+
+part './colorz.dart';
+part './iconz.dart';

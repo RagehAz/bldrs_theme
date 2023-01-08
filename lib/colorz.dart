@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of bldrs_theme;
 
 abstract class Colorz {
   // --------------------
