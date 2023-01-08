@@ -60,6 +60,9 @@ void main() {
   /*
   test('check bldrs_theme asset exists', () async {
 
+    /// should insure widgets binding for root bundle to work in tests
+    WidgetsFlutterBinding.ensureInitialized();
+
     const String icon = Iconz.bz;
     final bool exists = await Iconz.checkAssetExists(icon);
     expect(exists, true);
