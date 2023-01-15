@@ -11,9 +11,11 @@ class Iconz {
 
   // --------------------
   /// TESTED : WORKS PERFECT
-  /// This method should check if bldrs_theme asset exists or not
   static Future<bool> checkAssetExists(String bldrsThemeAsset) async {
     bool _exists = false;
+
+    /// This method should check if bldrs_theme asset exists or not
+    /// and to be called from the project that depends on bldrs_theme
 
     final String _path = bldrsThemeAsset;
 
@@ -190,8 +192,9 @@ class Iconz {
   static const String flag = '$iconDirectory/gi_flag.svg';
   static const String spark = '$iconDirectory/gi_spark.svg';
   static const String trigger = '$iconDirectory/gi_trigger.svg';
-  static const String bzBagdeWhite = '$iconDirectory/gi_white_bz_badge.svg';
+  static const String bzBadgeWhite = '$iconDirectory/gi_white_bz_badge.svg';
   static const String hashtag = '$iconDirectory/gi_hashtag.svg';
+  static const String colors = '$iconDirectory/gi_colors.svg';
   // --------------------
   /// PYRAMIDS
   static const String pyramidsYellow = '$iconDirectory/pyramids_yellow.svg';
@@ -368,6 +371,7 @@ class Iconz {
       crop,
       resize,
       flag,
+      colors,
     ];
 
   }
