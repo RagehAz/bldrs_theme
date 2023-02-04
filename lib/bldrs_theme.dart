@@ -14,6 +14,7 @@ part 'classes/iconz.dart';
 part 'classes/langs.dart';
 part 'classes/sounds.dart';
 part 'classes/ratioz.dart';
+part 'classes/shadowers.dart';
 
 /// BUTTONS
 part 'buttons/bldrs_name_button.dart';
